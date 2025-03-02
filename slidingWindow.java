@@ -1,8 +1,7 @@
-public slidingWindow {
+public class slidingWindow {
     public static void main(String[] args){
         int arr[]={100,300,400,500};
-        int k=2;
-        int n=4,sum=0,csum=0;
+        int k=2,n=4,sum=0,csum=0;
         for(int i=0;i<k;i++){
             sum+=arr[i];
         }
