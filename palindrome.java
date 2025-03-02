@@ -8,7 +8,7 @@ public class palindrome {
         return x == temp ? true : false;
     }
     public static void main(String[] args) {
-        String x="aba";
+        String x="abab";
         System.out.println(palindrome(x));
     }
 }
